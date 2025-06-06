@@ -1,0 +1,61 @@
+body{
+    font-family: fantasy;
+    font-size: 130%;
+}
+
+.wrapper{
+    width: 550px;
+    margin: 0 auto;
+}
+
+label{
+    width: 200px;
+    float: left;
+    position: relative;
+    top: 12px;
+}
+
+input{
+    width: 320px;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 5px 12px 5px;
+}
+
+.formElement{
+    margin-bottom: 10px;
+}
+
+#submit{
+    width: 130px;
+    margin-left: 200px;
+}
+#errors , #success {
+    margin-top: 15px;
+}
+
+.errorBox {
+    color: darkred;
+    background-color: #ffe5e5;
+    border: 1px solid darkred;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    max-width: 550px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90%;
+}
+
+
+.successBox {
+    color: green;
+    background-color: #e0ffe0;
+    border: 1px solid green;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    max-width: 550px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90%;
+}
