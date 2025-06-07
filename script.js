@@ -61,3 +61,14 @@ $("#togglePassword").on("change", function () {
   const type = this.checked ? "text" : "password";
   passField.attr("type", type);
 });
+
+
+$("#phone").on("input", function () {
+  
+  this.value = this.value.replace(/\D/g, "");
+  
+  if (this.value.length > 10) {
+    this.value = this.value.slice(0, 10);
+  }
+});
+
